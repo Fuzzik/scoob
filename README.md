@@ -1,8 +1,10 @@
-Scoob - A simple Discord bot based on discord.py
+Scoob - A Simple Discord Bot Based on discord.py
 =========
 
-**This bot currently does not work with discord.py versions > 0.16.12**
+Scoob is a simple Discord bot written in Python (discord.py) that I'm using to teach myself the language. New features will come with time.
 
-Scoob was originally written in Python 3.6 for discord.py 0.16.12 and needs to be updated to Python 3.7 for discord.py 1.2.3 (and future versions).
+Required Dependencies:
+---------
 
-This is a simple Discord bot written in Python (discord.py) that I'm using to teach myself the language. New features will come with time.
+* Python 3.7 (should work with versions as low as 3.6)
+* discord.py 1.2.3 (should work with versions as low as 1.0.0)
