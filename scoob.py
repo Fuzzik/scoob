@@ -55,4 +55,11 @@ async def closebot(ctx):
 	else:
 		await ctx.send(f"{ctx.message.author.mention} Permission denied.")
 
+@client.command()
+async def clear(ctx, amount = 5):
+	if ctx.message.author.id == 000000000000000000:
+		await ctx.channel.purge(limit = amount)
+	else:
+		await ctx.send(f"{ctx.message.author.mention} Permission denied.")
+
 client.run("YOUR_TOKEN_HERE")
