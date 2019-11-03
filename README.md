@@ -1,4 +1,4 @@
-Scoob - A Simple Discord Bot Based on discord.py
+Scoob - A simple Discord bot based on discord.py
 =========
 
 Scoob is a simple Discord bot written in Python (discord.py) that I'm using to teach myself the language. New features will come with time.
